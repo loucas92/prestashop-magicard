@@ -37,15 +37,15 @@
 
 
 #affichecartes .cartecontent .cardselection{
-  width:90px;
-  height:42px;
-  position:absolute;
-  top: 7%;
-  left: 52%;
+   width: 23%;
+  height: 10%;
+  position: absolute;
+  top: 5%;
+  left: 72%;
 }
 #affichecartes .cartecontent .moreinfo{
-  width:45px;
-  height:42px;
+  width:50%;
+  height:100%;
   background-color:#22a86c;
   float: left;
   border-right:1px solid #1f9963;
@@ -53,38 +53,45 @@
   border-bottom-left-radius:5px;
   background-image:url("../img/cross.png");
   background-repeat: no-repeat;
-  background-position: 15px 15px;
+  background-position: 50% 50%;
 }
 #affichecartes .cartecontent .selecttype{
-  width:45px;
-  height:42px;
+  width:50%;
+  height:100%;
   background-color:#22a86c;
   float: right;
     border-top-right-radius:5px;
   border-bottom-right-radius:5px;
     background-image:url("../img/chevron.png");
     background-repeat: no-repeat;
-  background-position: 15px 15px;
+  background-position: 50% 50%;
 }
 
 #affichecartes .cartecontent .addcart {
-  width:113px;
-  height:114px;
+  width:36%;
+  height:36%;
   position:absolute;
    top: 30%;
-  left: 30%;
+  left: 35%;
+  background-size:100%;
   background-image:url("../img/selectcard.png");
 }
 
 #affichecartes .cartecontent .price {
-  width:145px;
-  height:98px;
+  width:49%;
+ /* height:98px;*/
   background-image:url("../img/price.png");
   position:absolute;
-top: 60%;
-  left: 40%;
+  top: 65%;
+  left: 53%;
+  background-size:100%;
   text-align:center;
   color:white;
-    padding-top: 40px;
   font-size: 250%;
   font-weight: bolder;}
+
+  #affichecartes .cartecontent .price p {
+    position: absolute;
+    top:40%;
+    left: 20%;
+  }
